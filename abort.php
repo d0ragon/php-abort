@@ -65,3 +65,5 @@ function abort ($var, $type = 1, $safe = false)
   debug("\n\n\n\ntrace: " . $trace['file'] . ':' . $trace['line']);
   die;
 }
+
+
