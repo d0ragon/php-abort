@@ -1,5 +1,20 @@
 <?php
 
+  ini_set('error_reporting', E_ALL);
+  error_reporting(-1);
+  ini_set('display_errors', 1);
+
+
+function test ()
+{
+  print_r(get_defined_vars());
+  //var_dump(isset($var));
+}
+$rame = null;
+var_export(get_defined_vars());
+test($rame2);
+die;
+
 function debug ($var, $type = 1, $safe = false)
 {
   if (!headers_sent())
